@@ -1,0 +1,331 @@
+/* from big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main-nav {
+        margin-right: 15%; 
+    }
+    
+    .section-about, .section-instructions, .section-further, .section-photos, .section-bestOfIt, 
+    footnote {
+        padding: 0px 20px; 
+    }
+
+    .about-us .donateButton {
+        width: 25%;
+        text-align: center;  
+    }
+
+    /* -------------------------------------------- FAQ PAGE -------------------------------------------- */
+
+    .questions .row {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+}
+
+@media only screen and (max-width: 1150px) { /* iPad Landscape */
+    .main-nav {
+        margin-right: 5%; 
+    }
+
+    .about-us .donateButton {
+        width: 27%; 
+        text-align: center; 
+    }
+
+    .firstStep {
+        margin-top: 4%; 
+    }
+
+    .firstStep img {
+        margin-left: 10%; 
+    }
+
+    .secondStep img {
+        margin-left: 10%; 
+    }
+
+    .secondStep {
+        margin-right: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    .money-to-ppe img:last-of-type {
+        width: 350px; 
+        height: auto; 
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .main-nav {
+        margin-right: 10%; 
+    }
+
+    .main-nav li {
+        font-size: 80%;
+        margin-left: 20px;   
+    }
+    
+    h1 {
+        font-size: 50px; 
+    }
+
+    .about-us .donateButton {
+        width: 35%;
+        text-align: center;  
+    }
+
+    .section-about img {
+        width: 350px; 
+    }
+}
+
+@media only screen and (max-width: 880px) { /* iPad Portrait? */
+    .main-nav {
+        display: none; 
+    }
+    
+    .dropdown {
+        display: block; 
+    }
+
+    .general-info-photos p {
+        width: 80%; 
+        margin-left: 10%;
+        padding-top: 30px; 
+    }
+
+    .about-us .donateButton {
+        width: 36%;
+        margin-bottom: 20px;
+        text-align: center; 
+    }
+
+    .location-container, .google-maps {
+        width: 100%; 
+    }
+
+    .google-maps {
+        margin-left: 0%; 
+    }
+
+    .photo {
+        width: 100%;
+        margin-top: 20px;  
+    }
+
+    .caption-arrow-container {
+        width: 90%; 
+        margin-left: 5%; 
+        margin-top: 10px;  
+    }
+
+    .caption-arrow-container {
+        padding-bottom: 20px; 
+    }
+
+    .firstStep {
+        margin-top: 3.5%; 
+    }
+
+    .firstStep img {
+        margin-left: 0%; 
+    }
+
+    .secondStep img {
+        margin-left: 0%; 
+    }
+
+    .secondStep {
+        margin-right: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 770px) { /* iPad Portrait */
+    .general-info-container .col {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+
+    .money-to-ppe img:last-of-type {
+        width: 450px; 
+        height: auto; 
+    }
+
+    .about-us .donateButton {
+        width: 48%;
+        text-align: center;  
+    }
+
+    .help-graphics img {
+        width: 200px; 
+    }
+
+    .steps img {
+        width: 100%; 
+        display: block; 
+    }
+
+    .steps p {
+        font-size: 15px; 
+    }
+}
+
+@media only screen and (max-width: 745px) { /* iPhone XR Portrait */
+    html {
+        width: 100%; 
+    }
+
+    .logo {
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .section-about img, .section-about .emergency p {
+        display: none; 
+    }
+
+    .section-about .about-us {
+        width: 100%; 
+    }
+
+    .photo img {
+        height: 350px; 
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    h1 {
+        font-size: 45px; 
+    }
+
+    header .main-saying h2 {
+        font-size: 25px; 
+    }
+    
+    .outline h2 {
+        font-size: 20px; 
+    }
+
+    .about-us {
+        width: 100%; 
+    }
+
+    .about-us .donateButton {
+        width: 30%; 
+        text-align: center; 
+    }
+
+    .section-about img, .section-about .emergency p {
+        display: none;    
+    }
+
+    .help-graphics .col {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+
+    .help-graphics .col:first-of-type {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+
+    .partners img {
+        height: 50px; 
+    }
+
+    .caption {
+        font-size: 15px; 
+    }
+
+    .photo img {
+        height: 250px; 
+    }
+}
+
+@media only screen and (max-width: 485px) { /* iPhone 6+ --> 8+ Portrait */
+    h1 {
+        font-size: 40px; 
+    }
+
+    header .main-saying h2 {
+        font-size: 20px; 
+    }
+
+    .money-to-ppe img:last-of-type {
+        width: 300px; 
+    }
+
+    .about-us .donateButton {
+        width: 37%; 
+        text-align: center; 
+    }
+
+    .list-item img {
+        width: 40px; 
+    }
+
+    .list-item p {
+        padding-top: 11px;
+        font-size: 15px;  
+    }
+
+    .list-donate {
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-top: 6px; 
+    }
+
+    .general-info-photos p {
+        padding-top: 20px; 
+    }
+}
+
+@media only screen and (max-width: 389px) {    
+    .money-to-ppe img:last-of-type {
+        width: 200px; 
+    }
+    
+    .section-about .donateButton {
+        width: 50%;  
+    }
+
+
+
+    .list-donate {
+        float: left; 
+        display: block;
+        margin-left: 83px; 
+        margin-bottom: 10px; 
+    }
+
+    .list-item p {
+        font-size: 18px;  
+        float: left; 
+        display: block;
+        padding-top: 9px; 
+    }
+
+}
+
+@media only screen and (max-width: 364px) {
+    .section-about .donateButton {
+        width: 60%; 
+    }
+
+    .section-further .secondStep p, .section-further .firstStep p {
+        font-size: 10px; 
+    }
+
+    .list-item p {
+        font-size: 13px;   
+    }
+
+    .general-info-photos {
+        height: 130px; 
+    }
+
+    .photo img {
+        height: 200px; 
+    }
+}
